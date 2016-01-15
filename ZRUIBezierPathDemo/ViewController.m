@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "BezierView.h"
 @interface ViewController ()
 
 @end
@@ -17,5 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    BezierView *view = [[BezierView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:view];
 }
 @end
