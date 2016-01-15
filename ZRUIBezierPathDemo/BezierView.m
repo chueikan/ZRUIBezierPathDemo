@@ -31,6 +31,7 @@
     [path2 stroke];
     [path2 fill];
 
+    
     //二阶贝塞尔曲线（包含起始点，终点，一个控制点）
     UIBezierPath *path3 = [UIBezierPath bezierPath];
     //起始点
@@ -42,7 +43,6 @@
     [path3 setLineJoinStyle:kCGLineJoinMiter];
     [[UIColor brownColor] setStroke];
     [path3 stroke];
-    
     
     
     //三阶贝塞尔曲线（包含起始点，终点，两个控制点）
